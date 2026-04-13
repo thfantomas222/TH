@@ -72,6 +72,43 @@ input, select, textarea {
 	appearance: none;
 }
 
+
+
+
+.lang-switch {
+    position: absolute;
+    rigth: 200px;
+    font-family: inherit;
+    font-size: 0.8em;
+    letter-spacing: 0.225em;
+    text-transform: uppercase;
+}
+
+.lang-switch a {
+    text-decoration: none;
+    border-bottom: none;
+}
+
+.lang-switch a {
+    opacity: 0.6;
+}
+
+.lang-switch a.active {
+    opacity: 1;
+}
+
+#nav ul li.lang-switch {
+    list-style: none;
+}
+
+.scrolled .language-switcher {
+  display: none;
+}
+
+
+
+
+
 /* Basic */
 
 	@-ms-viewport {
@@ -1140,9 +1177,12 @@ input, select, textarea {
 			-ms-transition-delay: 0.75s;
 			transition-delay: 0.75s;
 			background-image: linear-gradient(to top, rgba(19, 21, 25, 0.5), rgba(19, 21, 25, 0.5)), url("../../images/overlay.png");
-			background-size: auto, 256px 256px;
-			background-position: center, center;
-			background-repeat: no-repeat, repeat;
+			background-size: auto,
+ 256px 256px;
+			background-position: center,
+ center;
+			background-repeat: no-repeat,
+ repeat;
 			z-index: 2;
 		}
 
