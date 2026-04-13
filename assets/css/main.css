@@ -124,6 +124,7 @@ input, select, textarea {
 
 .image-grid img {
   width: 100%;
+  max-width: 100%;
   aspect-ratio: 1 / 1; /* keeps them square */
   object-fit: cover;
   border-radius: 6px;
