@@ -112,8 +112,8 @@ input, select, textarea {
 }
 
 .image-grid img {
-  width: 320px;
-  height: 320px;
+  width: 350px;
+  height: 350px;
   object-fit: cover;
   border-radius: 6px;
   cursor: pointer;
