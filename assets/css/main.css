@@ -132,7 +132,7 @@ input, select, textarea {
 }
 
 .image-grid img:hover {
-  transform: scale(1.00);
+  transform: scale(1.05);
 }
 
 
