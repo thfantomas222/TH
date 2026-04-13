@@ -105,6 +105,24 @@ input, select, textarea {
   display: none;
 }
 
+.image-grid {
+  display: flex;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+
+.image-grid img {
+  width: 320px;
+  height: 320px;
+  object-fit: cover;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.image-grid img:hover {
+  transform: scale(1.05);
+}
 
 
 
