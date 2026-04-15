@@ -72,6 +72,10 @@ input, select, textarea {
 	appearance: none;
 }
 
+figure {
+  margin: 0;
+}
+
 .image-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
