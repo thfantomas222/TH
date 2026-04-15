@@ -114,6 +114,13 @@ figure {
   left: 0;
 }
 
+.audio-container {
+  width: 100%;
+  padding: 10px;
+  background: #f5f5f5;
+  border-radius: 10px;
+}
+
 /* Basic */
 
 	@-ms-viewport {
